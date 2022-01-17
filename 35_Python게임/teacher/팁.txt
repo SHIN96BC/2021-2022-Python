@@ -1,0 +1,10 @@
+angle = te.towards(t.pos())
+te.setheading(angle)
+
+t  #주인공
+te = t.Trutle() #적
+tf = t.Turtle()  # 먹이
+tf.shape("circle")
+
+함수를 일정시간마다 호출해주는 메소드
+t.ontimer(play, 100)
